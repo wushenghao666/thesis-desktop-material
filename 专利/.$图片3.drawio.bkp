@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="第 1 页" id="V_prKGCv0sAjBG86CF14">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-47" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hCckH9IOvW7aKnNcR-6Y-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="订单接收" vertex="1">
+          <mxGeometry height="50" width="100" x="150" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-48" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hCckH9IOvW7aKnNcR-6Y-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="订单校验" vertex="1">
+          <mxGeometry height="50" width="100" x="270" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-50" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="hCckH9IOvW7aKnNcR-6Y-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-51" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="hCckH9IOvW7aKnNcR-6Y-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="分支判定" vertex="1">
+          <mxGeometry height="50" width="100" x="390" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-59" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hCckH9IOvW7aKnNcR-6Y-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="普通订单处理" vertex="1">
+          <mxGeometry height="40" width="100" x="510" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-60" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="hCckH9IOvW7aKnNcR-6Y-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="高风险订单审核" vertex="1">
+          <mxGeometry height="40" width="100" x="510" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-46" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hCckH9IOvW7aKnNcR-6Y-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="50" width="100" x="30" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="50" width="100" x="750" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-61" edge="1" parent="1" source="hCckH9IOvW7aKnNcR-6Y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hCckH9IOvW7aKnNcR-6Y-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="订单完成" vertex="1">
+          <mxGeometry height="50" width="100" x="630" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="常规路径" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="审核路径" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="本发明主要介入位置：&lt;div&gt;输入感知+自适应分支预测+&lt;/div&gt;&lt;div&gt;门控控制等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hCckH9IOvW7aKnNcR-6Y-63" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,23 @@
+{
+    "entry": "f1",
+    "functions": [
+      {"name": "f1", "handler": "preprocess", "type": "task"},
+      {"name": "f2", "handler": "branch_check", "type": "branch"},
+      {"name": "f3", "handler": "path_a", "type": "task", "pure": true},
+      {"name": "f4", "handler": "path_b", "type": "task"},
+      {"name": "f5", "handler": "merge", "type": "task", "non_spec": true}
+    ],
+    "transitions": [
+      {"source": "f1", "target": "f2"},
+      {"source": "f2", "target": "f3"},
+      {"source": "f2", "target": "f4"},
+      {"source": "f3", "target": "f5"},
+      {"source": "f4", "target": "f5"}
+    ]
+}
+
+
+
+
+
+
