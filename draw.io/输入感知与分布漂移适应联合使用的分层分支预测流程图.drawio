@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="V_prKGCv0sAjBG86CF14">
+    <mxGraphModel dx="2240" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-3" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-5" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="t4fbl6URyfhQKXvi7-T9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;当前分支上下文&lt;/div&gt;&lt;div&gt;（分支节点 \(b\)，输入 \(x_t\)，路径签名 \(h_t\)）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="257.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-25" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-26" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;路径级统计状态&lt;/div&gt;&lt;div&gt;\(c_t=(b,h_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="47.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-7" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;输入桶映射&lt;/div&gt;&lt;div&gt;\(z_t=g(\phi(x_t))\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="477.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-33" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;桶级统计状态&lt;/div&gt;&lt;div&gt;\((b,h_t,z_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="477.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注：虚线箭头表示真实后继揭示后的在线更新过程" vertex="1">
+          <mxGeometry height="30" width="270" x="237.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-28" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;指数衰减统计&lt;/div&gt;&lt;div&gt;\(\widetilde{N}_t(c_t,\cdot)\rightarrow P_{\mathrm{decay}}(\cdot\mid c_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="-20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-29" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;滑动窗口统计&lt;/div&gt;&lt;div&gt;\(N_t^{(W)}(c_t,\cdot)\rightarrow P_{\mathrm{win}}(\cdot\mid c_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="204" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-31" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138.75" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;漂移强度估计&lt;/div&gt;&lt;div&gt;\(D_t=\mathrm{JSD}\!\left(P_{\mathrm{decay}},P_{\mathrm{win}}\right)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="47.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-36" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="w0x8xIffwKAPZKn7BJSW-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="450" as="sourcePoint" />
+            <mxPoint x="370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-37" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="450" />
+              <mxPoint x="373" y="450" />
+            </Array>
+            <mxPoint x="370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;桶级指数衰减统计&lt;/div&gt;&lt;div&gt;\(\widehat{P}^{\mathrm{bucket}}_t(v_i)=P_{\mathrm{decay}}(v_i\mid b,h_t,z_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="477.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-49" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-50" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-51" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;是否启用输入感知局部修正？&lt;/div&gt;&lt;div&gt;\(IG(b,h_t)&amp;gt;\gamma \;\wedge\; n_{\mathrm{path}}(b,h_t)\ge n_{\min}\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="352.5" x="196.25" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-52" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;回退混合&lt;/div&gt;&lt;div&gt;\(P_t(v_i)=\alpha_t\,\widehat{P}^{\mathrm{path}}_t(v_i)+(1-\alpha_t)\,\widehat{P}^{\mathrm{bucket}}_t(v_i)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="272.5" x="436.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="436.5" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-55" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="w0x8xIffwKAPZKn7BJSW-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;返回路径级时间自适应分布&lt;/div&gt;&lt;div&gt;\(P_t(v_i)=\widehat{P}^{\mathrm{path}}_t(v_i)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="57.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="255.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-58" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="w0x8xIffwKAPZKn7BJSW-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;控制器投机执行&lt;/div&gt;&lt;div&gt;候选集合构造与投机触发&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="267.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-71" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="t4fbl6URyfhQKXvi7-T9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="805" />
+              <mxPoint x="720" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-72" edge="1" parent="1" source="w0x8xIffwKAPZKn7BJSW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="t4fbl6URyfhQKXvi7-T9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="805" />
+              <mxPoint x="-30" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;分支结果揭示后&lt;/div&gt;&lt;div&gt;观测真实后继 \(v^*\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="267.5" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;更新路径级统计&lt;/div&gt;&lt;div&gt;\((b,h_t,v^*)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="-30" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="更新桶级统计&#xa;\((b,h_t,z_t,v^*)\)" vertex="1">
+          <mxGeometry height="30" width="100" x="620" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="w0x8xIffwKAPZKn7BJSW-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;根据漂移强度选择模式&lt;/div&gt;&lt;div&gt;输出路径级时间自适应分布&lt;/div&gt;&lt;div&gt;\(\widehat{P}^{\mathrm{path}}_t(v_i)=P_{\mathrm{drift}}(v_i\mid b,h_t)\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="47.5" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

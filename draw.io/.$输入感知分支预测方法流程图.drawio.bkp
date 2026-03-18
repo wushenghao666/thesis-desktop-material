@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="第 1 页" id="V_prKGCv0sAjBG86CF14">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-3" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-5" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="当前分支上下文&lt;div&gt;（分支节点&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;b&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;，输入&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;x&lt;sub&gt;t&lt;/sub&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;，路径签名&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;h&lt;sub&gt;t&lt;/sub&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-9" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="路径级统计&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;(b, h&lt;sub&gt;t&lt;/sub&gt;) -&amp;gt; P&lt;sub&gt;path&lt;/sub&gt;(v | b, h&lt;sub&gt;t&lt;/sub&gt;)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-7" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入桶映射&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;span class=&quot;ͼc&quot; style=&quot;&quot;&gt;z&lt;sub&gt;t&amp;nbsp;&lt;/sub&gt;= g(&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); text-align: start;&quot;&gt;φ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(x&lt;/span&gt;&lt;sub style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;t&lt;/sub&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;))&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="500" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-10" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="桶级统计&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;i&gt;(b, h&lt;sub&gt;t&lt;/sub&gt;, z&lt;sub&gt;t&lt;/sub&gt;) -&amp;gt; P&lt;sub&gt;path&lt;/sub&gt;(v | b, h&lt;sub&gt;t&lt;/sub&gt;, z&lt;sub&gt;t&lt;/sub&gt;)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="500" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-12" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-16" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否启用输入感知？&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;b&gt;IG(b, h&lt;sub&gt;t&lt;/sub&gt;) &amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); text-align: start;&quot;&gt;γ&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); text-align: start;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot; style=&quot;font-size: 13px;&quot;&gt; 且 &lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;n&lt;sub style=&quot;&quot;&gt;path&lt;/sub&gt;&amp;nbsp;≥ n&lt;sub style=&quot;&quot;&gt;min&lt;/sub&gt;&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="260" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-22" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="回退混合&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b&gt;P&lt;sub style=&quot;&quot;&gt;t&lt;/sub&gt;(v) =&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); text-align: start;&quot;&gt;α(n&lt;sub&gt;t&lt;/sub&gt;)P&lt;sub&gt;path&lt;/sub&gt;&amp;nbsp;+ (1-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;α(n&lt;/span&gt;&lt;sub style=&quot;background-color: transparent; color: rgb(51, 51, 51); text-align: start;&quot;&gt;t&lt;/sub&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;))P&lt;sub style=&quot;&quot;&gt;bucket&lt;/sub&gt;&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="500" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-21" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="t4fbl6URyfhQKXvi7-T9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="返回路径级分布&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;P&lt;sub&gt;t&lt;/sub&gt;(v) = P&lt;sub&gt;path&lt;/sub&gt;(v | b, h&lt;sub&gt;t&lt;/sub&gt;)&lt;/i&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="80" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="252" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-25" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="t4fbl6URyfhQKXvi7-T9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制器推测执行" vertex="1">
+          <mxGeometry height="50" width="210" x="290" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-26" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="t4fbl6URyfhQKXvi7-T9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="675" />
+              <mxPoint x="50" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-27" edge="1" parent="1" source="t4fbl6URyfhQKXvi7-T9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" target="t4fbl6URyfhQKXvi7-T9-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="675" />
+              <mxPoint x="760" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="分支结果揭示后&lt;div&gt;观测真实后继&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i&gt;v*&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="210" x="290" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注：虚线箭头表示真实后继揭示后的在线更新过程" vertex="1">
+          <mxGeometry height="30" width="270" x="520" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="更新&lt;i&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(b, h&lt;sub&gt;t&lt;/sub&gt;, v*)&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="t4fbl6URyfhQKXvi7-T9-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="更新&lt;i&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px;&quot;&gt;(b, h&lt;sub&gt;t&lt;/sub&gt;, z&lt;sub&gt;t&lt;/sub&gt;, v*)&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="650" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
