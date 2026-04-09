@@ -1,0 +1,59 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="第 1 页" id="V_prKGCv0sAjBG86CF14">
+    <mxGraphModel dx="983" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-24" edge="1" parent="1" source="Rh569GhPcsfBBJ9XqHuE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Rh569GhPcsfBBJ9XqHuE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="80" width="450" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-26" edge="1" parent="1" source="Rh569GhPcsfBBJ9XqHuE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Rh569GhPcsfBBJ9XqHuE-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="450" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="450" x="80" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="工作流定义与运行配置" vertex="1">
+          <mxGeometry height="35" width="180" x="105" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="部署与执行入口" vertex="1">
+          <mxGeometry height="35" width="180" x="328" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="工作流状态管理" vertex="1">
+          <mxGeometry height="35" width="130" x="105" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="投机执行控制器" vertex="1">
+          <mxGeometry height="35" width="120" x="385" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="分支预测与状态记录" vertex="1">
+          <mxGeometry height="35" width="120" x="250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="本地执行后端" vertex="1">
+          <mxGeometry height="35" width="180" x="105" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OpenWhisk 执行后端" vertex="1">
+          <mxGeometry height="35" width="180" x="323" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;用户接口层&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;投机控制层&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="225" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Rh569GhPcsfBBJ9XqHuE-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;b&gt;平台执行层&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="225" y="285" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
